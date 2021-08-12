@@ -1,0 +1,21 @@
+navbar
+
+about contact home faq
+
+
+
+second section of home
+
+res groc choc bev
+
+
+third 
+
+rev-eat, dhaba
+groc-veg,fru,roo
+choc-
+bev-beer, jui, tea
+
+
+
+fourth form.pug and form.css

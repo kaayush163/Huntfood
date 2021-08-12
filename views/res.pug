@@ -1,0 +1,80 @@
+extends basic.pug
+
+
+block scripts 
+    script(src='../static/index.js')
+
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/types/res.css
+
+block content
+
+    section#first
+       h1  Search Restaurant
+     
+
+    
+    section#second 
+       h2 Select your Favourit Restaurant in Hyderabad
+       div.card
+          li #[a(href="/res/eat")  ]
+          h3 Flechazo
+          div.card-box
+             div.card-img  
+                img(src="../static/img3/Res/Flechazo.jpg")
+                
+
+
+       div.card
+          li #[a(href="/res/dhaba")]
+          h3 Dhaba
+          div.card-box
+             div.card-img  
+                img(src="../static/img3/Res/Dhaba.jpg")
+            
+                
+
+       
+             
+                
+
+       div.card
+          li #[a(href="/res/tat") ]
+          h3 Tatva
+          div.card-box
+             div.card-img  
+                img(src="https://media-cdn.tripadvisor.com/media/photo-s/15/87/7f/b7/20181127-204020-largejpg.jpg")
+            
+                
+          
+       div.card
+          li #[a(href="/res/barb") ]
+          h3 Barbecues
+          div.card-box
+             div.card-img  
+                img(src="../static/img3/Res/Absolute Barbecues.jpg")
+           
+                
+
+       div.card
+          li #[a(href="/res/otm") ]
+           
+          h3 OTM
+          
+          div.card-box
+             div.card-img  
+                img(src="../static/img3/Res/Over-the-Moon-Company.jpg")
+      
+                
+       div.card
+          li #[a(href="/res/ah") ]
+          
+          h3 AH
+          
+          div.card-box
+             div.card-img  
+                img(src="../static/img3/Res/Almond-House.jpg")
+    

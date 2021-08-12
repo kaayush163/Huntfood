@@ -1,0 +1,108 @@
+
+        html,
+        body {
+            min-height: 100%;
+        }
+
+        body,
+        div,
+        form,
+        input,
+        select,
+        p {
+            padding: 0;
+            margin: 0;
+            outline: none;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 1.4rem;
+            color: #eee;
+        }
+
+        body {
+            background: url("https://online.ahu.edu/wp-content/uploads/2019/03/Healthy-Food-Doesnt-Have-To-Be-Expensive.jpg") no-repeat center;
+            background-size: cover;
+        }
+
+        h1,
+        h2 {
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+
+        .main-block {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: unset;
+            height: 200%;
+            padding: 10.0rem;
+        }
+
+        .left-part,
+        form {
+            padding: 1.0rem;
+        }
+
+        .left-part {
+            text-align: center;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.0rem;
+        }
+
+        .info,
+        .left-part {
+            display: flex;
+            flex-direction: column;
+            padding-left: 2.0rem;
+            padding-right: 2.0rem;
+            font-weight: 1000;
+            background-color: rgba(0, 0, 0, 0.555);
+        }
+
+        .info {
+            padding: 2.0rem;
+        }
+
+        input,
+        select,
+        p {
+            padding: 0rem;
+            background: transparent;
+            border: none;
+            align-items: justify;
+            border-bottom: .05rem dotted rgb(255, 255, 255);
+        }
+
+        input::placeholder {
+            font-weight: 700;
+            color: rgba(255, 255, 255, 0.555);
+        }
+
+        button {
+            width: 100%;
+            text-transform: uppercase;
+            font-weight: 800;
+            background-color: black;
+            color: white
+        }
+
+        button:hover {
+            background: rgba(70, 98, 92, 0.24);
+        }
+
+        #message1,
+        #message2,
+        #message3,
+        #message4 {
+            font-size: 1.0rem;
+            color: rgba(255, 255, 255, 0.555);
+        }
+
+        #message5 {
+            font-size: 1.0rem;
+            color: rgba(255, 255, 255, 0.897);
+        }

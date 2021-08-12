@@ -1,0 +1,94 @@
+extends basic.pug
+
+
+block scripts 
+    script(src='../static/index.js')
+
+
+block style 
+    style
+      include ../static/style.css
+
+
+block content
+    //-nav#navbar.top 
+        ul  
+             div#logo
+                  img(src="../static/img/logo4.jpeg") 
+                
+             li #[a(href="/") Home] 
+             li #[a(href="/") About] 
+             li #[a(href="/") Services]
+             li #[a(href="/") Contact Us]--//
+
+    section#introSection 
+       div FOOD HUNT ONLINE  <!--u can use div instead of |  and instead of using br use flex direction in css to seperate in different columns.   div.small use to make it different from upper div so that we can use different styl to both of them-->
+
+       div.small Every Taste Available 
+
+    section#sponsorSection 
+       h1 RACE for Hunger
+       h2 Order food and grocery delivery online 
+       h2 from hundreds of restaurants and shops nearby.
+
+
+       div.card
+          li #[a(href="/res") ]
+          h3 Restaurant 
+          div.card-box
+             div.card-img  
+                img(src="../static/img2/res.jpg")
+             div.card-content
+                p You can view the food details from any given Restaurant
+          
+
+
+       div.card
+          li #[a(href="/groc") ]
+          h3 Grocery
+          div.card-box
+             div.card-img
+                img(src="../static/img2/groc.jpg")
+             div.card-content
+                p Necessary Raw Vegetables/Fruits can be found here
+
+
+       div.card
+          li #[a(href="/choc") ]
+          h3 Deserts
+          div.card-box
+             div.card-img
+                img(src="../static/img2/cake.jpg")
+             div.card-content
+                p Eager to eat pasteries/Cakes/icecreams then see here for details
+
+
+
+       div.card
+          li #[a(href="/bev") ]
+          h3 Beverages
+          div.card-box
+             div.card-img
+                img(src="../static/img2/bev.jpg")
+             div.card-content
+                p Item list for soft drinks/Tea/Coffee/Beer can be found here      
+
+    section#missionSection
+       h3 Want to be a Part?
+       h3  
+
+       div.card2
+          
+          h4 Join Us 
+          div.card-box2
+             
+             div.card-img2
+                img(src="../static/img2/hir.jpg")
+             div.card-content2
+                 p Here you can APPLY
+             li #[a(href="/form") ]
+
+//-block foot 
+
+    footer#footer 
+          h4  Copyright © 2021 Food Hunt.com All rights reserved--//

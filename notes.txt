@@ -1,0 +1,41 @@
+npm init
+npm install express
+
+npm install -g nodemon --save
+nodemon  app.js
+
+write in app.js 
+use get
+use put
+
+
+after designing your front page webpage
+
+then create basic.pug
+            contact.pug
+            home.pug
+
+            in views folder
+
+            and doing inheritence with each other
+
+
+
+Mongodb
+from extension also install Mongodb
+
+npm install mongoose at first terminal
+at second Mongodb
+at third write mongoo
+
+
+npm install body for writing form submit to store in mongo database
+
+
+
+now write post form contact form to do submit in app.js
+
+
+
+
+bodyparser is a middleware

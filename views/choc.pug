@@ -1,0 +1,36 @@
+extends basic.pug
+
+
+block scripts 
+    script(src='../static/index.js')
+
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/types/choc.css
+
+block content
+
+    section#first
+       h1  Search Desserts
+     
+
+    
+    section#second 
+       
+       div.card
+          li #[a(href="/choc/cake")  ]
+          h3 Cakes & Chocolates
+          div.card-box
+             div.card-img  
+                img(src="https://images.unsplash.com/photo-1617455559706-fa196228c05d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80")
+                
+
+
+       div.card
+          li #[a(href="/choc/cus")]
+          h3 Cookies
+          div.card-box
+             div.card-img  
+                img(src="https://images.unsplash.com/photo-1545754605-bcade396d00e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80")

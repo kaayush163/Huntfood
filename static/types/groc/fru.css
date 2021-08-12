@@ -1,0 +1,110 @@
+#first{
+    padding:22.2rem 12.0rem;
+    margin:auto;
+        background:center/cover no-repeat url("https://images.unsplash.com/photo-1619566636858-adf3ef46400b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+        color:rgb(240, 226, 226);/* jo bhi aaega text ab white mein ho jayega*/
+        flex-direction: column;
+        display: flex;
+        justify-content: center;/*jo bhi text ab likna hai wo center pr aayega*/
+        align-items:center;
+    
+        width: 150.1rem;
+        font-size:3.5rem;
+        font-family: 'Grandstander', cursive;
+        background-color:red;
+        /*height:300px;
+        height: 521px;*/
+    }
+
+
+
+
+    #second{
+    
+        background-color:ghostwhite;
+    
+        margin: auto;
+        width: 150rem;
+        height:74.2rem;
+    
+    }
+    
+    
+    #second h1{
+        font-size:.2rem;
+        font-family: 'Tourney', cursive;
+          text-align:center; 
+          padding-top: 3.0rem;/*this will show get food below 20rem of introsection by help of padding if u use margin then not done other thing done-*/
+    }
+    
+    #second h2{
+        font-size:2.0rem;
+        font-family: 'Style Script', cursive;
+          text-align:center; 
+          padding-top: 1.0rem;/*this will show get food below 20rem of introsection by help of padding if u use margin then not done other thing done-*/
+          color: #992323;
+    
+        }
+    
+    .card{
+        align-items: center;
+        display: inline-block;
+        border: .1rem solid white;
+        border-radius: 1.0rem;
+        width: 26%;
+        margin: 4.0rem 16.9rem;
+        height: 14.8rem;
+    }
+    
+    .card li a{
+    
+        padding: 7.4rem 18.3rem;
+        color: black;
+        text-decoration: plum;
+        font-size: .32rem;
+        font-family: cursive;
+        margin: 6.3rem -1.7rem;
+    
+    /*
+        padding: 35rem;
+        color:black;
+        text-decoration: plum ;
+        font-size:1.2rem; /* this will increase font size of home  navbar
+        font-family: cursive;
+        /*background-color: transparent;*/
+    }
+    
+    
+    .card h3{
+        text-align: right;
+        margin: -3.9rem 8.6rem;
+        padding: -.1rem 5.3rem;
+    }
+    
+    .card p{
+        text-align: center;
+        margin: -3.7rem 2.4rem;
+    }
+    
+    
+    .card-box{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction:row;
+        cursor:pointer;
+    
+    }
+    
+    .card-img{
+        height: 17.6rem;
+        padding: .2rem 1.3rem;
+        margin: -.3rem .9rem;
+        
+    }
+    
+    .card-img img{
+        height: inherit;
+        margin: -3.3rem -4.0rem;
+        padding: 1.9rem;
+    }

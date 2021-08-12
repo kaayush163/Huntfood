@@ -1,0 +1,28 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Food Hunt
+    block scripts 
+    block style
+      //-script(src='/jquery.js')
+  body
+    nav#navbar.top 
+        ul   
+             
+             div#navbar-header
+                li #[a(href="/") ]
+                   div#logo
+                    img(src="../static/img/logo4.jpeg") 
+                  
+                  
+                  
+             
+             li #[a(href="/") Home] 
+             li #[a(href="/about") About] 
+             li #[a(href="/faq") FAQ]
+             li #[a(href="/contact") Contact]
+
+
+
+    block content

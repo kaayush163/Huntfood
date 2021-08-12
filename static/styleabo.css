@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#first{
+    padding:222px 120px;
+        background:center/cover no-repeat url("https://images.unsplash.com/photo-1514064019862-23e2a332a6a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=616&q=80");
+        color:rgb(210, 235, 230);/* jo bhi aaega text ab white mein ho jayega*/
+        flex-direction: column;
+        display: flex;
+        justify-content: center;/*jo bhi text ab likna hai wo center pr aayega*/
+        align-items:center;
+    
+        width: 1531px;
+        font-size:35px;
+        font-family: 'Grandstander', cursive;
+        background-color:red;
+        width: 1500px;
+        margin:auto;
+        /*height:300px;
+        height: 521px;*/
+    }
+
+
+
+
+#second{
+    height:652px;
+    background-color:ghostwhite;
+
+    margin: auto;
+    display: block;
+    width: 1500px;
+    margin:auto;
+
+}
+
+
+#second h1{
+    font-size:2rem;
+    font-family: 'Tourney', cursive;
+      text-align:center; 
+      padding-top: 30px;/*this will show get food below 20px of introsection by help of padding if u use margin then not done other thing done-*/
+}
+
+#second h2{
+    font-size:20px;
+    font-family: 'Style Script', cursive;
+      text-align:center; 
+      padding-top: 10px;/*this will show get food below 20px of introsection by help of padding if u use margin then not done other thing done-*/
+      color: #992323;
+
+    }
+
+#second p{
+        font-size:20px;
+        font-family: 'Roboto', sans-serif;
+        text-align:center; 
+        padding-top: 10px;/*this will show get food below 20px of introsection by help of padding if u use margin then not done other thing done-*/
+        color: #992323;
+        padding-top:58px; ;
+        }
+
+
+.card{
+    align-items: center;
+    display: inline-block;
+    border: 1px solid bisque;
+    border-radius: 10px;
+    width: 26%;
+    margin: 40px 169px;
+    height: 148px;
+}
+
+.card li a{
+
+    padding: 74px 183px;
+    color: black;
+    text-decoration: plum;
+    font-size: 3.2rem;
+    font-family: cursive;
+    margin: 63px -17px;
+
+/*
+    padding: 35px;
+    color:black;
+    text-decoration: plum ;
+    font-size:1.2rem; /* this will increase font size of home  navbar
+    font-family: cursive;
+    /*background-color: transparent;*/
+}
+
+
+.card h3{
+    text-align: right;
+    margin: -39px 86px;
+    padding: -1px 53px;
+}
+
+.card p{
+    text-align: center;
+    margin: -37px 24px;
+}
+
+
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    cursor:pointer;
+
+}
+
+.card-img{
+    height: 176px;
+    padding: 2px 13px;
+    margin: -3px 9px;
+    
+}
+
+.card-img img{
+    height: inherit;
+    margin: -33px -40px;
+    padding: 19px;
+}

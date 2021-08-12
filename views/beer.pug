@@ -1,0 +1,52 @@
+extends basic.pug
+
+
+block scripts 
+    script(src='../static/index.js')
+
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/types/bev/beer.css
+
+block content
+
+    section#first
+      h1    Available 
+      h1    Beers/
+      h1    Wines
+
+    
+    section#second 
+    
+      div.card
+           div.card-box
+               div.card-img  
+                  img(src="https://images.unsplash.com/photo-1587118889075-596cd291a877?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80")
+  
+      div.card
+           div.card-box
+               div.card-img 
+                  img(src="https://images.unsplash.com/photo-1568665270275-c08c0cc8a8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80")  
+  
+      div.card
+           div.card-box
+               div.card-img
+                  img(src="https://images.unsplash.com/photo-1505048492-d86bb810c2a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80")
+  
+      div.card
+           div.card-box
+               div.card-img  
+                  img(src="https://images.unsplash.com/photo-1594170186012-9eecf5e38dca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80")            
+  
+      div.card
+           div.card-box
+               div.card-img  
+                  img(src="https://images.unsplash.com/photo-1584764671246-b339498c55a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80")  
+  
+      div.card
+           div.card-box
+               div.card-img
+                  img(src="https://images.unsplash.com/photo-1583064263579-5f1e2a2ae00f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80")
+

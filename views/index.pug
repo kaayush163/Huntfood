@@ -1,0 +1,91 @@
+//- index.pug
+<!--pug basically make easy like in html we have to use id to connect with css but here no use of id or class=""-->
+
+
+<!-- difference between card.img and card-img  that is in card .img it makes two card means subclass of of card and card-img in created card given img is included-->
+doctype html
+html
+  head
+    title  Food Hunt 
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul  
+             div#logo
+                  img(src="../static/img/logo4.jpeg") 
+                
+             li #[a(href="/") Home] 
+             li #[a(href="/") About] 
+             li #[a(href="/") Services]
+             li #[a(href="/") Contact Us]
+
+    section#introSection 
+       div FOOD HUNT ONLINE  <!--u can use div instead of |  and instead of using br use flex direction in css to seperate in different columns.   div.small use to make it different from upper div so that we can use different styl to both of them-->
+
+       div.small Every Taste Available 
+
+    section#sponsorSection 
+       h1 Get FOOD
+       h2 Order food and grocery delivery online 
+       h2 from hundreds of restaurants and shops nearby.
+
+
+       div.card
+          p Restaurant 
+          div.card-box
+             div.card-img  
+                img(src="../static/img2/res.jpg")
+             div.card-content
+                p You can view the food details from any given Restaurant
+          
+
+
+       div.card
+          p Grocery
+          div.card-box
+             div.card-img
+                img(src="../static/img2/groc.jpg")
+             div.card-content
+                p Necessary Raw Vegetables/Fruits can be found here
+
+
+       div.card
+          p Deserts
+          div.card-box
+             div.card-img
+                img(src="../static/img2/cake.jpg")
+             div.card-content
+                p Eager to eat pasteries/Cakes/icecreams then see here for details
+
+
+
+       div.card
+          p Beverages/Juices
+          div.card-box
+             div.card-img
+                img(src="../static/img2/bev.jpg")
+             div.card-content
+                p Item list for soft drinks/Tea/Coffee/Beer can be found here      
+
+    section#missionSection
+       h3 Want to be a Part?
+       h3  _
+
+       div.card
+          p Join Us 
+          div.card-box
+             div.card-img
+                img(src="../static/img2/hir.jpg")
+             div.card-content
+                 p Here you can apply
+
+
+                 
+    footer#footer 
+          h4  Copyright © 2021 Food Hunt.com All rights reserved
+
+
+
+    script
+      include ../static/index.js

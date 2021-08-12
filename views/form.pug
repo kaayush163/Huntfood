@@ -1,0 +1,203 @@
+extends extra.pug
+
+block scripts 
+    script(src='../static/index.js')
+
+
+block style 
+    style
+      include ../static/extrastyle.css
+      include ../static/form.css
+
+block content
+
+      <body>
+          <div class="main-block">
+              <div class="left-part">
+                  <h1 style="font-family: serif; font-size: 49px;">Be A Member of FoodHunt</h1>
+                  <p>Hi,my name is AAYUSH, the founder and CEO of FoodHunt Website .I am very thankful to you for joining our organization.Our organization will help you in any possible way to help you to reach your career goals.
+      
+      
+                  
+         
+                  <br/><br/><img src="https://images.unsplash.com/photo-1532634922-8fe0b757fb13?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoZWVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" width=500 height=300 align="right">.
+                  <br/><br/><img src="https://images.medindia.net/amp-images/health-images/images-of-tasty-food.jpg" width=500 height=300 align="right">.
+                  <br/><br/><img src="https://images.indianexpress.com/2017/01/healthy-tasty-food_thinkstock_759.jpg" width=500 height=300 align="right">.
+      
+      
+      
+              </div>
+      
+              <form action="/">
+                  <div class="info" align="center">
+                      <h2>Fill your details for Joining us</h2>
+      
+                      <table border="0" style="border-spacing: 45px; padding: 88px;">
+                          <tr>
+                              <td>First Name</td>
+                              <td colspan="0"><input name="firstName" id="firstName" type="text" placeholder="John" onblur="checkField1();" required=" "> 
+                                      <br /> 
+                                      <span id="message1"></span></td>
+                          </tr>
+      
+      
+                          <tr>
+                              <td>Last Name</td>
+                              <td colspan="2"><input name="lastName" id="lastName" type="text" placeholder="Smith" onblur="checkField2();" required>
+                                      <br /> 
+                                      <span id="message2"></span></td>
+                          </tr>
+      
+      
+                          <tr>
+                              <td>E-mail</td>
+                              <td colspan="2"><input name="E-mail" id="E-mail" type="text" placeholder="xyz@example.com  onblur="checkField3();" required> 
+                                      <br /> 
+                                      <span id="message3"></span></td>
+                          </tr>
+      
+      
+                          <tr>
+                              <td>Phone Number</td>
+                              <td colspan="2"><input name="phoneNumber" id="phoneNumber" type="text" placeholder="xxx-xx-xx-xx" onblur="checkField4();" required>
+                                      <br /> 
+                                      <span id="message5"></span></td>
+                                      
+                          </tr>
+      
+                          <tr>
+                              <th colspan="3" border="1">
+                                  <p>Are you a Member of any  other food organization? </p>
+                              </th>
+                          </tr>
+      
+                          <tr>
+                              <h3></h3>
+                              <td>
+                                  <input name="place" id="Left" type="radio" value="Left"><label for="Left">Yes</label>
+                              </td>
+                              <td>
+                                  <input name="place" id="Center" type="radio" value="Center"><label for="Center">No</label>
+                              </td>
+                              <td>
+                                  <input name="place" id="Right" type="radio" value="Right"><label for="Right">Disclose </label>
+                              </td>
+                          </tr>
+      
+      
+                          <tr>
+                              <th rowspan="2" border="2">
+                                  <p>Why you want to join?</p>
+                              </th>
+                          </tr>
+      
+      
+                          <tr>
+                              <td> <span id="message5"></span>
+                                  <select class="form-control" id="food_item" multiple aria-label="multiple select example">
+                                      <option value="0"> Part time job</option>
+                                      <option value="1"> For full time job </option>
+                                      <option value="2"> For Internship </option>
+                                      <option value="3"> Others </option>
+                                      
+                                  </select>
+      
+                              </td>
+                          </tr>
+      
+      
+                          <tr>
+                          <td>Expected Salary that you want in a month?</td>
+                          <td colspan="2"><input name="quantity" id="quantity" type="number" placeholder="45000 Rs" min="45000" max="80000" required></td>
+                          </tr>
+      
+                          <tr>
+                              <th rowspan="2" border="2">
+                                  <p>Select Languages you know</p>
+                              </th>
+                          </tr>
+      
+      
+                          <tr>
+                              <td>
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">English
+                                      </label>
+                                  </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                      <label class="form-check-label" for="flexCheckChecked">Hindi
+                                        
+                                      </label>
+                                    </div>
+      
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+                                      <label class="form-check-label" for="flexCheckDefault">Tamil
+                                     
+                                      </label>
+                                    </div>
+      
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+                                      <label class="form-check-label" for="flexCheckDefault">German
+                                        
+                                      </label>
+                                    </div>
+      
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+                                      <label class="form-check-label" for="flexCheckDefault">Japanese
+                                      </label>
+                                    </div>
+                              </td>
+                          </tr>
+      
+      
+                          <tr>
+                              <th colspan="3" border="1">
+                                  <p>Enter Your Address</p>
+                              </th>
+                          </tr>
+      
+      
+                          <tr>
+                              <td>
+                               <div class="row">
+                                   <div class="col-50">
+                                  
+                                     <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                     <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                                     <label for="city"><i class="fa fa-institution"></i> City</label>
+                                     <input type="text" id="city" name="city" placeholder="New York">
+                         
+                                     <div class="row">
+                                       <div class="col-50">
+                                         <label for="state">State</label>
+                                         <input type="text" id="state" name="state" placeholder="NY">
+                                       </div>
+                                       <div class="col-50">
+                                         <label for="zip">Zip</label>
+                                         <input type="text" id="zip" name="zip" placeholder="10001">
+                                       </div>
+                                     </div>
+                                   </div>
+                         
+                              </td>
+                          </tr>
+      
+      
+      
+      
+                          <th colspan="3" align=" center">
+                              <button type="button">SUBMIT</button>
+                          </th>
+                      </table>
+                      <br />
+      
+              </form>
+      
+          </div>
+      </body>
+

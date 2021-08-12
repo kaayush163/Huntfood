@@ -1,0 +1,27 @@
+#first{
+    padding:22.2rem 12.0rem;
+    margin:auto;
+        background:center/cover no-repeat url("https://images.unsplash.com/photo-1532269748385-a458d8ee473e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80");
+        color: black;/* jo bhi aaega text ab white mein ho jayega*/
+        flex-direction: column;
+        display: flex;
+        justify-content: center;/*jo bhi text ab likna hai wo center pr aayega*/
+        align-items:center;
+    
+        width: 150rem;
+        font-size:3.5rem;
+        font-family: 'Grandstander', cursive;
+        background-color:red;
+        /*height:300px;
+        height: 521px;*/
+    }
+
+#second{
+        width: 150rem;
+        margin: auto;
+        background-color:ghostwhite;
+    
+        margin: auto;
+        display: block;
+    
+    }

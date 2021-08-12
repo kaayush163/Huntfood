@@ -1,0 +1,337 @@
+
+@import url('https://fonts.google.com/specimen/Lacquer?query=lacquer');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow&family=Style+Script&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+html{
+    font-size:62.5%;  /*px converted to pixel*/
+}
+/*content{
+      font-size:62.5%;
+}*/
+
+
+#logo{
+    display:flex;
+    color:white;
+    align-items:center;
+    margin:0rem 1.4rem;
+    cursor:pointer;
+}
+
+#logo img{
+    height: 5.3rem;
+    margin: -.2rem .2rem;
+}
+
+
+#navbar{
+    background-color:rgb(109, 58, 0);
+    padding:1.0rem 2.0rem;
+    font-family: 'Lacquer';  /*lacquer come from import tag at the uppermost part written*/
+    font-family: 'Grandstander', cursive;
+    width: 152.0rem;
+    margin:auto;
+}
+
+
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+   /* justify-content:center;*/  /*this is was for allign all logo home about at center */
+    align-items: center;   /*this makes home about at center important*/
+
+}
+
+#navbar li{
+    list-style:none ; /*it will remove bindus*/
+   
+
+}
+
+#navbar li a{
+    
+    padding: 5.4rem 2.9rem;
+    color: white;
+    text-decoration: plum ;
+    font-size:2.12rem; /* this will increase font size of home  navbar*/
+    font-family: cursive;
+   /* text-decoration: underline*/
+  
+}
+
+
+#navbar li a:hover{/* hover will do black color on home about when cursor move to them*/
+    
+    padding: 5.4rem 2.9rem;
+    color: rgb(10, 10, 10);
+    text-decoration: plum ;
+    font-size:2.12rem; /* this will increase font size of home  navbar*/
+    font-family: cursive;
+   /* text-decoration: underline*/
+  
+}
+
+#introSection{
+    padding:22.2rem 12.0rem;
+    background:center/cover no-repeat url("https://images.unsplash.com/photo-1535227798054-e4373ef3795a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=744&q=80");
+    color:black;/* jo bhi aaega text ab white mein ho jayega*/
+    flex-direction: column;
+    display: flex;
+    justify-content: center;/*jo bhi text ab likna hai wo center pr aayega*/
+    align-items:center;
+
+    width: 152.0rem;
+    font-size:3.5rem;
+    font-family: 'Grandstander', cursive;
+    background-color:red;
+    margin:auto;
+    /*height:300rem;
+    height: 521rem;*/
+}
+
+#introSection div.small{
+    padding:1.0rem;
+    font-size:2.0rem;
+
+}
+
+
+
+
+
+#sponsorSection{
+    height:65.2rem;
+    background-color:ghostwhite;
+
+    margin: auto;
+    display: block;
+    width: 152.0rem;
+
+}
+
+
+#sponsorSection h1{
+    font-size:3.2rem;
+    font-family: 'Tourney', cursive;
+      text-align:center; 
+      padding-top: 3.0rem;/*this will show get food below 20rem of introsection by help of padding if u use margin then not done other thing done-*/
+}
+
+#sponsorSection h2{
+    font-size:2.0rem;
+    font-family: 'Style Script', cursive;
+      text-align:center; 
+      padding-top: 1.0rem;/*this will show get food below 20rem of introsection by help of padding if u use margin then not done other thing done-*/
+      color: #992323;
+
+    }
+
+.card{
+    align-items: center;
+    display: inline-block;
+    border: 0.1rem solid bisque;
+    border-radius: 1.0rem;
+    width: 26%;
+    margin: 4rem 17.9rem;
+    height: 14.8rem;
+    padding: 1rem 0rem;
+}
+
+.card li a{
+
+    padding: 10.4rem 18.3rem;
+    color: black;
+    text-decoration: plum;
+    font-size: 5.32rem;
+    font-size: 1.32rem;
+    
+    margin: 7.3rem 0.3rem;
+
+/*
+    padding: 35rem;
+    color:black;
+    text-decoration: plum ;
+    font-size:1.2rem; /* this will increase font size of home  navbar
+    font-family: cursive;
+    /*background-color: transparent;*/
+}
+
+
+.card h3{
+    text-align: right;
+    margin: -0.9rem 6.6rem;
+    padding: -.1rem 5.3rem;
+    font-size: 2rem;
+}
+
+.card p{
+    text-align: center;
+    margin: -3.7rem 2.4rem;
+    font-size:initial;
+    
+}
+
+
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    cursor:pointer;
+
+}
+
+.card-img{
+    height: 17.6rem;
+    padding: 0.2rem 1.3rem;
+    margin: -1.3rem .9rem;
+    
+}
+
+.card-img img{
+    height: inherit;
+    margin: -3.3rem -4.0rem;
+    padding: 1.9rem;
+}
+
+#map {
+    background-image: url("https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15225.506606989658!2d78.478591!3d17.4416775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb08fd92e3bf7956!2sReshmi&#39;s%20Classic%20Restaurant!5e0!3m2!1sen!2sin!4v1627984524519!5m2!1sen!2sin");
+}
+
+#missionSection{
+    background:center/cover no-repeat url("https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80");
+    height: 39.4rem;
+    background-color: rgb(255, 255, 255); 
+    margin: auto;
+    display: block;
+    color: darkgreen;
+    width: 152.0rem;
+}
+
+#missionSection h3{
+    font-size: 5.3rem;
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    padding-top: 3.6rem;
+
+}
+
+
+#missionSection h4{
+    font-size: 3.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    padding-top: 3.0rem;
+    margin: -1.8rem 2.9rem;
+
+}
+
+.card2{
+    align-items: center;
+    display: inline-block;
+    border: 1.05rem solid rgb(46, 44, 41);
+    border-radius: 1.0rem;
+    width: 26%;
+    margin: -1.5rem 55.0rem;
+    height: 13.9rem;
+    color: #1f0606;
+}
+
+.card2 h4{
+    text-align: right;
+    margin: -3.9rem 8.6rem;
+    padding: -.1rem 5.3rem;
+}
+
+.card2 p{
+    text-align: center;
+    margin: 1.0rem 2.3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:initial;
+}
+
+
+.card-box2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    cursor:pointer;
+
+}
+.card-img2{
+    height: 19.9rem;
+    padding: .1rem 1.7rem;
+    margin: -4.0rem .2rem;
+    
+}
+
+.card-img2 img{
+    height: inherit;
+    margin: -3.4rem -4.8rem;
+    padding: 3.1rem 3rem;
+}
+
+.card2 li a{
+
+    padding: 9.8rem 16.8rem;
+    color: black;
+    text-decoration: plum;
+    font-size: .32rem;
+    font-family: cursive;
+    margin: 10.7rem -36.0rem;
+
+/*
+    padding: 35rem;
+    color:black;
+    text-decoration: plum ;
+    font-size:1.2rem; /* this will increase font size of home  navbar
+    font-family: cursive;
+    /*background-color: transparent;*/
+}
+#footer{
+    background-color:black;
+    height:39.4rem;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size:2.0rem;
+    padding-top: 2.0rem;
+    width: 152.0rem;
+    margin:auto;
+}
+
+
+
+
+@media(max-width:1200px)
+{
+    html{
+        max-width:55%;
+    }
+}
+
+
+@media(max-width:998px)
+{
+    html{
+        max-width:55%;
+    }
+}
+
+@media(max-width:768px)
+{
+    html{
+        max-width:55%;
+    }
+}

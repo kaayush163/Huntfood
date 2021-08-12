@@ -1,0 +1,32 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Food Hunt
+    block scripts 
+    block style
+      //-script(src='/jquery.js')
+  body
+    nav#navbar.top 
+        ul   
+             
+             div#navbar-header
+                li #[a(href="/") ]
+                   div#logo
+                    img(src="../static/img/logo4.jpeg") 
+                  
+                  
+                  
+             
+             li #[a(href="/") Home] 
+             li #[a(href="/about") About] 
+             li #[a(href="/faq") FAQ]
+             li #[a(href="/contact") Contact]
+            
+
+    block content
+    footer#footer 
+        h1 Address:- West Maredpally Road, Secunderabad , Telengana
+        h3 “One cannot think well, love well, sleep well, if one has not dined well.”
+        h2 “There are people in the world so hungry, that God cannot appear to them except in the form of bread.”
+        p  Copyright © 2021 Food Hunt.com | All rights are reserved 
